@@ -153,6 +153,7 @@ header .logo-size {
   justify-content: center;
   align-items: center;
   font-size: xx-large;
+  margin-right: 1rem;
 }
 .like .empty {
   background-color: white;
@@ -196,4 +197,91 @@ footer a {
 }
 footer a:hover {
   border-bottom: white 1px solid;
+}
+
+img {
+  width: 100%;
+  height: 275px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.space {
+  height: 1350px;
+  padding: 1rem;
+  background-color: #F6F6F6;
+  border-radius: 40px 40px 0px 0px;
+  transform: translateY(-80px);
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.menu-header h2 {
+  font-family: "shrikhand", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.like .color {
+  background-color: #F6F6F6;
+}
+
+.menu {
+  padding-top: 0;
+}
+
+.menu h3 {
+  font-weight: 300;
+  -webkit-margin-before: 0.5rem;
+          margin-block-start: 0.5rem;
+}
+
+.menu .sous-ligne {
+  width: 40px;
+  height: 3px;
+  background-color: #99E2D0;
+  margin: 0;
+  transform: translateY(-15px);
+}
+
+.menu-list {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 1rem;
+}
+
+.menu-list h4 {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  padding-top: 0.8rem;
+  font-size: 18px;
+}
+
+.menu-list p {
+  font-size: 15px;
+  -webkit-margin-before: 0.5rem;
+          margin-block-start: 0.5rem;
+}
+
+.menu-flex {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.5rem;
+}
+
+.menu-flex .prix {
+  font-weight: bold;
+}
+
+.marge {
+  padding-top: 1.7rem;
 }/*# sourceMappingURL=style.css.map */
