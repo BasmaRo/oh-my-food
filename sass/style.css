@@ -94,6 +94,11 @@ header .logo-size {
   color: #9356DC;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .restaurant {
   background-color: #F6F6F6;
   height: 1180px;
@@ -107,6 +112,7 @@ header .logo-size {
   background-color: white;
   margin-bottom: 1rem;
   cursor: pointer;
+  text-decoration: none;
 }
 .restaurant .block-menu:hover {
   transform: scale(1.01);
@@ -125,6 +131,7 @@ header .logo-size {
   justify-content: space-between;
   line-height: 0.5rem;
   position: relative;
+  text-decoration: none;
 }
 .restaurant .new-flag {
   position: absolute;
@@ -154,6 +161,7 @@ header .logo-size {
   align-items: center;
   font-size: xx-large;
   margin-right: 1rem;
+  cursor: pointer;
 }
 .like .empty {
   background-color: white;
@@ -195,11 +203,15 @@ footer a {
   color: white;
   text-decoration: none;
 }
-footer a:hover {
-  border-bottom: white 1px solid;
+
+.fa-arrow-left {
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  left: 5%;
 }
 
-img {
+.img-restau {
   width: 100%;
   height: 275px;
   -o-object-fit: cover;
@@ -207,11 +219,12 @@ img {
 }
 
 .space {
-  height: 1350px;
+  height: 100%;
   padding: 1rem;
   background-color: #F6F6F6;
   border-radius: 40px 40px 0px 0px;
-  transform: translateY(-80px);
+  transform: translateY(-60px);
+  margin-bottom: -60px;
 }
 
 .menu-header {
@@ -284,4 +297,27 @@ img {
 
 .marge {
   padding-top: 1.7rem;
+}
+
+.commander {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background-image: linear-gradient(200.64deg, #9356DC -5.2%, #FF79DA 110.74%);
+  color: white;
+  font-weight: bold;
+  padding: 15px 40px;
+  font-size: 16px;
+  border-radius: 27px;
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 40px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+  transition-duration: 0.1s;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.02);
 }/*# sourceMappingURL=style.css.map */
