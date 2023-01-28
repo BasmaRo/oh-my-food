@@ -1,10 +1,15 @@
+@import "./mixin/media-queries/mixin";
+@import "./variables/variables";
 @import "./home-page/base/body-header/body-header";
-@import "./home-page/layout/localisation";
-@import "./home-page/layout/reservez";
-@import "./home-page/layout/fonctionnement";
-@import "./home-page/layout/restaurant";
+@import "./home-page/base/body-header/loading";
+@import "./home-page/main/localisation";
+@import "./home-page/main/reservez";
+@import "./home-page/main/fonctionnement";
+@import "./home-page/main/restaurant";
 @import "./home-page/base/footer/footer";
-@import "./menus/menu-1/layout/menu";
+@import "./menu-page/menu";
+@import "./animations/animation";
+
 
 
 

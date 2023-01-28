@@ -1,0 +1,20 @@
+@use "sass:color";
+.reservez {
+    text-align: center;
+    background-color: $color-back;
+    margin: 0%;
+    padding: 20px;
+       p {
+        color: #353535;
+        font-size: 18px;
+          }
+         button {
+          @include button;
+          padding: 18px;
+          margin-bottom: 30px;
+          margin-top: 20px;
+          }
+          & button:hover {
+            @include button-hover;
+          }
+  }

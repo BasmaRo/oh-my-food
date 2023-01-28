@@ -2,18 +2,31 @@ footer{
     background-color: #353535;
     color: white;
     padding: 1rem;
-    & h3{
+    @include for-desktop{
+      display: flex;
+      justify-content: center;
+    }
+      h3{
       font-family: "shrikhand", sans-serif;
       font-weight: 400;
-    }
-      & i{
-        margin-right: 0.5rem;
+      @include for-desktop{
+        margin-right: 2rem;
+        margin-block-start: 0.8rem;
       }
-        & fa-solid{
-        background-color: white;
+      } 
+        p{
+          @include for-desktop{
+            margin-right: 2rem;
+          } 
         }
-          & a{
-            color: white;
-            text-decoration: none;
+          i{
+          margin-right: 0.5rem;
           }
+            fa-solid{
+            background-color: white;
+            }
+              a{
+              color: white;
+              text-decoration: none;
+              }
   }

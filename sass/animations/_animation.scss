@@ -1,0 +1,64 @@
+/*animation loading page d'acceuil*/
+@keyframes loader {
+    from{
+      transform: scale(1);
+    }
+    to{
+      transform: scale(0);
+    }
+  }
+  @keyframes sharp {
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
+/*animation button like*/
+.like{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    margin-right: 1rem;
+    cursor: pointer;
+        .empty{
+        background-color:white;
+        @include empty; 
+    }
+        .empty:hover{
+            opacity: 0; 
+        }
+            .fill{
+                background: linear-gradient(350deg, $color-tertiary 0%, $color-primary 0%, $color-secondary 100%);
+                -webkit-background-clip : text ;
+                color: transparent;
+                display: inline-block;
+                position: absolute;
+                font-weight: 900;
+                right: 0;
+            }
+}
+
+/*animation menu list*/
+.menu-list:nth-child(3) {
+    animation-delay: 0.2s;
+}
+.menu-list:nth-child(4) {
+    animation-delay: 0.5s;
+}
+.menu-list:nth-child(5) {
+    animation-delay: 0.8s;
+}
+.menu-list:nth-child(6) {
+    animation-delay: 1.1s;
+}
+
+@keyframes list {
+    from{
+        transform: scale(0);
+    }
+    to{
+        transform: scale(1);
+    }
+}
