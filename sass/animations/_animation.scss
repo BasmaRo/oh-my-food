@@ -62,3 +62,28 @@
         transform: scale(1);
     }
 }
+
+/*animation button check*/
+.button-hover{
+    background-color:$color-tertiary;
+    margin-right: -5rem;
+    padding: 1.4rem;
+    border-radius: 0 15px 15px 0;
+    cursor: pointer;  
+}
+.menu-list:hover .button-hover{
+ margin-right: 0rem;
+}
+.fa-check{
+    display: inline-block;
+    border-radius: 100px;
+    background-color: white;
+    padding: 0.4rem;
+    color: $color-tertiary;
+    transform: rotate(180deg);
+    transition-duration: 0.5s; 
+    cursor: pointer;
+        &:hover{
+            transform:rotate(0);
+        }     
+}
