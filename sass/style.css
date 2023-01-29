@@ -310,7 +310,7 @@ footer a {
   }
 }
 .space .menu-header .empty-2 {
-  background-color: #F6F6F6;
+  background-color: #F7F7F7;
   opacity: 1;
   transition: opacity 250ms;
   display: inline-block;
@@ -358,8 +358,12 @@ footer a {
   transform: scale(0);
   -webkit-animation: list 1s both;
           animation: list 1s both;
-  width: 60%;
-  margin-left: 18%;
+}
+@media (min-width: 768px) {
+  .menu .menu-list {
+    width: 60%;
+    margin-left: 18%;
+  }
 }
 .menu .menu-flex {
   display: flex;
