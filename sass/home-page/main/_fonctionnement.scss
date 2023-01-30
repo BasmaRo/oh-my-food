@@ -6,7 +6,7 @@
           padding-left: 5rem;
       }
     }
-      & ol {
+       ol {
         list-style: none;
         margin-left: -2rem;
         @include for-desktop{
@@ -14,7 +14,7 @@
           justify-content: center;
         }
       }
-        & li {
+         li {
           background-color: $color-back;
           font-size: 16px;
           font-weight: bold;
@@ -28,10 +28,10 @@
             margin: 0 1rem;
           }
         }
-          & li:hover{
+           li:hover{
             transform: scale(1.02);
           }
-            & span {
+             span {
               margin-left: -3rem;
               margin-right: 2rem;
               padding: 0.3rem 0.6rem;
@@ -40,11 +40,11 @@
               color: white;
               font-size: 14px;
             }
-              & i {
+               i {
                 margin-right: 1rem;
                 color: #7E7E7E;
               }
-                & .fa-store {
+                 .fa-store {
                   color: $color-primary;
                 }
                 

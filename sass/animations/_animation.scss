@@ -1,4 +1,22 @@
 /*animation loading page d'acceuil*/
+.loader{
+    background-color: whitesmoke;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    inset: 0;
+    position: fixed;
+    z-index: 1;
+    opacity: 0.8;
+    animation: loader 0.2s 3s forwards;
+      i{
+      animation: sharp 4s;
+      }
+        .fa-sharp{
+        font-size: xxx-large;
+        color: $color-primary;
+        }
+}
 @keyframes loader {
     from{
       transform: scale(1);
@@ -12,6 +30,7 @@
       transform: rotate(360deg);
     }
   }
+
 
 /*animation button like*/
 .like{
@@ -41,6 +60,22 @@
 }
 
 /*animation menu list*/
+.menu-list{
+    padding-left: 1rem;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: $box-shadow; 
+    margin-bottom: 1rem;
+    line-height: 0.7rem;
+    overflow: hidden;
+    cursor: pointer;
+    transform: scale(0);
+    animation: list 1s both;
+    @include for-desktop{ 
+    width: 60%;
+    margin-left: 18%;
+    } 
+    } 
 .menu-list:nth-child(3) {
     animation-delay: 0.2s;
 }

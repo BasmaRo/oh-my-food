@@ -66,22 +66,6 @@
         margin-left: 18%;
         }
         }
-            .menu-list{
-            padding-left: 1rem;
-            background-color: white;
-            border-radius: 15px;
-            box-shadow: $box-shadow; 
-            margin-bottom: 1rem;
-            line-height: 0.7rem;
-            overflow: hidden;
-            cursor: pointer;
-            transform: scale(0);
-            animation: list 1s both;
-            @include for-desktop{ 
-            width: 60%;
-            margin-left: 18%;
-            } 
-            } 
             .menu-flex{
                 display: flex;
                 justify-content: space-between;
